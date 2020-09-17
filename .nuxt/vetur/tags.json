@@ -1,0 +1,62 @@
+{
+  "IconArrowLeft": {
+    "description": "Auto imported from components/IconArrowLeft.vue"
+  },
+  "LazyIconArrowLeft": {
+    "description": "Auto imported from components/IconArrowLeft.vue"
+  },
+  "IconArrowRight": {
+    "description": "Auto imported from components/IconArrowRight.vue"
+  },
+  "LazyIconArrowRight": {
+    "description": "Auto imported from components/IconArrowRight.vue"
+  },
+  "IconChevronRight": {
+    "description": "Auto imported from components/IconChevronRight.vue"
+  },
+  "LazyIconChevronRight": {
+    "description": "Auto imported from components/IconChevronRight.vue"
+  },
+  "IconSearch": {
+    "description": "Auto imported from components/IconSearch.vue"
+  },
+  "LazyIconSearch": {
+    "description": "Auto imported from components/IconSearch.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "PrevNext": {
+    "description": "Auto imported from components/PrevNext.vue"
+  },
+  "LazyPrevNext": {
+    "description": "Auto imported from components/PrevNext.vue"
+  },
+  "SearchInput": {
+    "description": "Auto imported from components/SearchInput.vue"
+  },
+  "LazySearchInput": {
+    "description": "Auto imported from components/SearchInput.vue"
+  },
+  "BaseAccordion": {
+    "description": "Auto imported from components/_base-accordion.vue"
+  },
+  "LazyBaseAccordion": {
+    "description": "Auto imported from components/_base-accordion.vue"
+  },
+  "TechAccordionUnit": {
+    "description": "Auto imported from components/tech-accordion.unit.js"
+  },
+  "LazyTechAccordionUnit": {
+    "description": "Auto imported from components/tech-accordion.unit.js"
+  },
+  "TechAccordion": {
+    "description": "Auto imported from components/tech-accordion.vue"
+  },
+  "LazyTechAccordion": {
+    "description": "Auto imported from components/tech-accordion.vue"
+  }
+}

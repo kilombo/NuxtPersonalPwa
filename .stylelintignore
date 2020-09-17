@@ -1,0 +1,5 @@
+/node_modules/**
+/dist/**
+/tests/unit/coverage/**
+/assets/scss/variables.scss
+/assets/css/content.scss

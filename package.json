@@ -1,0 +1,84 @@
+{
+  "name": "nuxt-personal-pwa",
+  "version": "1.0.0",
+  "description": "Mi web personal",
+  "author": "Enrique Querol Garcés",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt -o",
+    "dev:e2e": "cypress open --mode=development",
+    "build": "nuxt build --modern",
+    "start": "nuxt start",
+    "generate": "nuxt build --modern && nuxt export",
+    "serve": "nuxt serve",
+    "lint:eslint": "eslint --fix",
+    "lint:stylelint": "stylelint --fix",
+    "lint:markdownlint": "markdownlint",
+    "lint:prettier": "prettier --write --loglevel warn",
+    "lint:all:eslint": "yarn lint:eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:all:stylelint": "yarn lint:stylelint \"**/*.{vue,scss}\"",
+    "lint:all:markdownlint": "yarn lint:markdownlint \"docs/*.md\" \"*.md\"",
+    "lint:all:prettier": "yarn lint:prettier \"**/*.{js,json,css,scss,vue,html,md}\"",
+    "lint": "run-s lint:all:*",
+    "new": "hygen new"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "cross-env PRE_COMMIT=true lint-staged -r"
+    }
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.4.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "3.0.0-beta.16",
+    "@nuxtjs/tailwindcss": "^2.0.0",
+    "nuxt": "^2.13.3",
+    "nuxt-i18n": "^6.0.1",
+    "v-lazy-image": "^1.3.2",
+    "vue-carousel": "^0.18.0",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^0.0.1",
+    "@nuxtjs/eslint-module": "^0.0.1",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^5.2.0",
+    "cypress": "^3.4.1",
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": ">=12.0.0",
+    "eslint-plugin-cypress": "^2.6.1",
+    "eslint-plugin-import": ">=2.16.0",
+    "eslint-plugin-jest": "^22.15.1",
+    "eslint-plugin-node": ">=8.0.1",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": ">=4.0.1",
+    "eslint-plugin-standard": ">=4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "husky": "^3.0.3",
+    "hygen": "^4.0.8",
+    "lint-staged": "^9.2.1",
+    "markdownlint-cli": "^0.17.0",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.16.4",
+    "sass-loader": "^9.0.2",
+    "stylelint": "^10.1.0",
+    "stylelint-config-css-modules": "^1.4.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-processor-html": "^1.0.0",
+    "stylelint-scss": "^3.9.3"
+  },
+  "engines": {
+    "node": ">=8.9.0",
+    "yarn": ">=1.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11"
+  ]
+}

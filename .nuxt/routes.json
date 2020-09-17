@@ -1,0 +1,58 @@
+[
+  {
+    "name": "index___es",
+    "path": "/es",
+    "component": "/Users/kike/proyectos/NuxtPersonalPwa/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_41d9ae22"
+  },
+  {
+    "name": "my-components___en",
+    "path": "/my-components",
+    "component": "/Users/kike/proyectos/NuxtPersonalPwa/pages/my-components.vue",
+    "chunkName": "pages/my-components",
+    "_name": "_1fec7e74"
+  },
+  {
+    "name": "my-components.unit___en",
+    "path": "/my-components.unit",
+    "component": "/Users/kike/proyectos/NuxtPersonalPwa/pages/my-components.unit.js",
+    "chunkName": "pages/my-components.unit",
+    "_name": "_0114603e"
+  },
+  {
+    "name": "my-components___es",
+    "path": "/es/my-components",
+    "component": "/Users/kike/proyectos/NuxtPersonalPwa/pages/my-components.vue",
+    "chunkName": "pages/my-components",
+    "_name": "_1fec7e74"
+  },
+  {
+    "name": "my-components.unit___es",
+    "path": "/es/my-components.unit",
+    "component": "/Users/kike/proyectos/NuxtPersonalPwa/pages/my-components.unit.js",
+    "chunkName": "pages/my-components.unit",
+    "_name": "_0114603e"
+  },
+  {
+    "name": "docs-slug___es",
+    "path": "/es/docs/:slug?",
+    "component": "/Users/kike/proyectos/NuxtPersonalPwa/pages/docs/_slug.vue",
+    "chunkName": "pages/docs/_slug",
+    "_name": "_5413422e"
+  },
+  {
+    "name": "docs-slug___en",
+    "path": "/docs/:slug?",
+    "component": "/Users/kike/proyectos/NuxtPersonalPwa/pages/docs/_slug.vue",
+    "chunkName": "pages/docs/_slug",
+    "_name": "_5413422e"
+  },
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "/Users/kike/proyectos/NuxtPersonalPwa/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_41d9ae22"
+  }
+]
